@@ -1,0 +1,31 @@
+.container{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}
+.container details{
+    padding: 10px;
+}
+
+
+summary::marker{
+    content: none;
+}
+
+.container details summary img{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+h1{
+    margin-left: 15px;
+}
+
+.container details{
+    margin: 10px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
